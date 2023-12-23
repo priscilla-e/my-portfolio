@@ -10,6 +10,7 @@ export default {
         'primary': '#EFE070',
         'secondary': '#F6CA79',
         'dark': '#242529',
+        'light': '#F1F1F1',
       },
       fontFamily: {
         sans: ['Raleway', 'sans-serif'],
