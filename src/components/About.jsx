@@ -3,7 +3,7 @@ import AboutImage from '../assets/about-image.jpg';
 export default function About() {
     return (
         <section id="about">
-            <div className='container flex flex-col mx-auto my-32 md:flex-row md:space-x-10'>
+            <div className='container flex flex-col mx-auto md:my-24 md:flex-row md:space-x-10'>
                 <img src={AboutImage} className={'hidden w-96 md:block'}/>
 
                 <div>

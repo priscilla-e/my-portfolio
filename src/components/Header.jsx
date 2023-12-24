@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header id="#header" className="hidden items-center py-4 px-10 shadow-lg md:flex">
+        <header id="#header" className="hidden items-center py-4 px-10 shadow-lg md:flex" data-aos="fade-down">
             <div className="space-x-5 text-3xl tracking-tighter md:flex-1">
                 <span className="font-extrabold text-light">Priscilla</span>
                 <span>Emasoga</span>

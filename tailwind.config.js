@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       container: {
-        padding: '4rem',
+        padding: '2rem',
       },
       colors: {
         'primary': '#EFE070',
