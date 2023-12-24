@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <section id="hero">
             <div
-                className='container mx-auto flex flex-col items-center h-screen mt-10 md:h-[90vh] md:mt-0 md:flex-row-reverse md:justify-between'>
+                className='container mx-auto flex flex-col items-center h-screen mt-10 md:h-[90vh] md:flex-row-reverse md:justify-between'>
                 {/*image*/}
                 <img src={HeroImage} alt="Priscilla Emasoga" className="shadow-filter w-1/2 min-w-60 md:min-w-80 max-w-lg"
                      data-aos="fade-left"/>
