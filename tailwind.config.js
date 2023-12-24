@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        padding: '4rem',
+      },
       colors: {
         'primary': '#EFE070',
         'secondary': '#F6CA79',
