@@ -2,7 +2,8 @@ import {useState} from "react";
 import AboutImage from '../../assets/about-image.jpg';
 import {IoSchoolSharp} from "react-icons/io5";
 import {FaLaptopCode} from "react-icons/fa6";
-import SkillsList from "./SkillsList.jsx";
+import SkillList from "./SkillList.jsx";
+import EducationList from "./EducationList.jsx";
 
 export default function About() {
     const [activeTab, setActiveTab] = useState('skills');
@@ -36,7 +37,6 @@ export default function About() {
                         development specifically software systems design and full-stack development.
                     </div>
 
-
                     <div>
                         {/*tab navigation*/}
                         <ul className="flex flex-wrap mt-4 text-sm font-bold text-center text-gray-500">
@@ -63,7 +63,10 @@ export default function About() {
                         </ul>
 
                         {/*tab content*/}
-                        {activeTab === 'skills' && <SkillsList />}
+                        <div className="mt-4">
+                            {activeTab === 'skills' && <SkillList />}
+                            {activeTab === 'education' && <EducationList />}
+                        </div>
 
                         <div className='mt-96'></div>
                     </div>
