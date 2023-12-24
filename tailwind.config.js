@@ -14,10 +14,11 @@ export default {
         'secondary': '#F6CA79',
         'dark': '#242529',
         'light': '#F1F1F1',
+        'darkLine': '#303237',
       },
       fontFamily: {
         sans: ['Raleway', 'sans-serif'],
-        monoscape: ['Source Code Pro', 'monospace'],
+        mono: ['Source Code Pro', 'monospace'],
       },
     },
   },
