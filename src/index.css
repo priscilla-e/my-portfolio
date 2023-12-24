@@ -21,6 +21,11 @@
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
 body {
     @apply font-mono bg-dark text-gray-300 ;
 }
