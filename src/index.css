@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .active {
+        @apply text-primary;
+    }
+    .active:before {
+        content: '<';
+        @apply mr-1;
+    }
+    .active:after {
+        content: '/>';
+        @apply ml-1;
+    }
+}
+
 body {
     @apply font-mono bg-dark text-gray-300 ;
 }

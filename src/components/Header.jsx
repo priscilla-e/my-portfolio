@@ -9,7 +9,7 @@ export default function Header() {
             <nav>
                 {/* Desktop navigation menu */}
                 <ul className="hidden space-x-10 text-sm font-bold md:flex">
-                    <li className="hover:text-light"><a href="#">About Me</a></li>
+                    <li className="active hover:text-light"><a href="#">About Me</a></li>
                     <li className="hover:text-light"><a href="#">Experience</a></li>
                     <li className="hover:text-light"><a href="#">Projects</a></li>
                     <li className="hover:text-light"><a href="#">My Blog</a></li>
