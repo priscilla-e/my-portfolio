@@ -7,13 +7,22 @@
     .active {
         @apply text-primary;
     }
-    .active:before {
+    .active::before {
         content: '<';
         @apply mr-1;
     }
-    .active:after {
+    .active::after {
         content: '/>';
         @apply ml-1;
+    }
+
+    .styled-li {
+        @apply flex;
+    }
+    .styled-li::before {
+        content: '</>';
+        @apply mr-2 text-primary font-bold;
+
     }
 }
 
