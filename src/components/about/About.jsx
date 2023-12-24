@@ -22,7 +22,6 @@ export default function About() {
             <div className='container flex flex-col mx-auto md:my-24 md:flex-row md:space-x-10'>
                 <img src={AboutImage} className={'hidden w-96 h-96 rounded-xl shadow-xl md:block'}/>
 
-
                 <div className='flex-1'>
                     {/*section header*/}
                     <div className='flex'>
@@ -67,8 +66,6 @@ export default function About() {
                             {activeTab === 'skills' && <SkillList />}
                             {activeTab === 'education' && <EducationList />}
                         </div>
-
-                        <div className='mt-96'></div>
                     </div>
                 </div>
             </div>
