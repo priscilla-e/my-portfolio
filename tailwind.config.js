@@ -20,6 +20,9 @@ export default {
         sans: ['Raleway', 'sans-serif'],
         mono: ['Source Code Pro', 'monospace'],
       },
+      animation: {
+        'fill-up': 'fillUp 0.3s ease-in forwards'
+      },
     },
   },
   plugins: [],

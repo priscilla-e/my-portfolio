@@ -38,3 +38,14 @@ html {
 body {
     @apply font-mono bg-dark text-gray-300 leading-8 ;
 }
+
+@keyframes fillUp {
+    0% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+}
