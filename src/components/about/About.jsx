@@ -20,7 +20,7 @@ export default function About() {
     return (
         <section id="about">
             <div className='container flex flex-col mx-auto md:my-24 md:flex-row md:space-x-10'>
-                <img src={AboutImage} className={'hidden w-96 h-96 rounded-xl shadow-xl md:block'}/>
+                <img src={AboutImage} className={'hidden w-96 h-96 xl:w-[28rem] xl:h-[32rem] rounded-xl shadow-xl md:block'}/>
 
                 <div className='flex-1'>
                     {/*section header*/}
@@ -30,7 +30,7 @@ export default function About() {
                     </div>
 
                     {/*section description*/}
-                    <div className='mt-6 leading-6 text-sm  md:max-w-2xl'>
+                    <div className='mt-6 leading-8 text-sm md:max-w-2xl'>
                         A second-year Computer Science student at the University of Sheffield, driven by a passion for
                         technology and its potential to solve complex real-world problems. I'm interested in software
                         development specifically software systems design and full-stack development.
@@ -40,29 +40,28 @@ export default function About() {
                         {/*tab navigation*/}
                         <ul className="flex flex-wrap mt-4 text-sm font-bold text-center text-gray-500">
                             <li className="me-2 group">
-                                <a href="#about"
+                                <button type="button"
                                    className={tabStyle('skills')}
                                    aria-current="page"
                                    onClick={() => setActiveTab('skills')}
                                 >
                                     <FaLaptopCode size='20' className='mr-2'/>
                                     Skills
-                                </a>
+                                </button>
                             </li>
                             <li className="me-2 group">
-                                <a href="#about"
+                                <button type="button"
                                    className={tabStyle('education')}
                                    onClick={() => setActiveTab('education')}
                                 >
                                     <IoSchoolSharp size='20' className='mr-2'/>
                                     Education
-                                </a>
+                                </button>
                             </li>
-
                         </ul>
 
                         {/*tab content*/}
-                        <div className="mt-4">
+                        <div className="mt-6">
                             {activeTab === 'skills' && <SkillList />}
                             {activeTab === 'education' && <EducationList />}
                         </div>
