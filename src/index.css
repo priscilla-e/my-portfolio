@@ -36,5 +36,5 @@ html {
 }
 
 body {
-    @apply font-mono bg-dark text-gray-300 ;
+    @apply font-mono bg-dark text-gray-300 leading-8 ;
 }
