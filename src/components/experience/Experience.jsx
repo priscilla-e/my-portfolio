@@ -1,8 +1,5 @@
 import { useState } from 'react'
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Button from '@mui/material/Button';
-
+import SectionHeader from "../SectionHeader.jsx";
 import {EXPERIENCES} from '../../data.js'
 
 export default function Experience() {
@@ -19,11 +16,7 @@ export default function Experience() {
     return (
         <section id='experience'>
             <div className='container mx-auto my-24'>
-                {/*section header*/}
-                <div className='flex mb-14'>
-                    <h2 className='text-2xl font-bold active md:text-3xl'> Experience </h2>
-                    <span className='flex-1 hidden border-b border-b-darkLine md:inline-block'></span>
-                </div>
+                <SectionHeader title='Experience'/>
 
                 <div className="flex flex-col md:flex-row">
 
@@ -55,10 +48,7 @@ export default function Experience() {
                             ))}
                         </ul>
                     </div>
-
                 </div>
-
-
             </div>
         </section>
     )
