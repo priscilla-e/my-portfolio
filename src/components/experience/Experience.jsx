@@ -16,7 +16,7 @@ const Tab = ({id, label, isActive, onChange}) => {
     )
 }
 
-PropTypes.Tab = {
+Tab.propTypes = {
     id: PropTypes.number.isRequired,
     label: PropTypes.string.isRequired,
     isActive: PropTypes.bool.isRequired,
