@@ -29,7 +29,6 @@ export default function Hero() {
                             ]}
                             speed={20}
                             className='text-2xl font-bold md:text-3xl xl:text-5xl'
-                            // style={{ fontSize: '2em' }}
                         />
                     </div>
                     <p className='max-w-md' data-aos="fade-up" data-aos-duration="1400">

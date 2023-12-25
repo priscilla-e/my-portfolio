@@ -14,7 +14,7 @@ export default function Experience() {
     }
 
     return (
-        <section id='experience'>
+        <section id='experience' data-aos="fade-up">
             <div className='container mx-auto my-24'>
                 <SectionHeader title='Experience'/>
 
@@ -42,7 +42,12 @@ export default function Experience() {
                         </p>
                         <ul className='w-full mt-10 text-sm space-y-6 md:max-w-2xl'>
                             {EXPERIENCES[activeTab].description.map((desc, index) => (
-                                <li key={index} className='styled-li'>
+                                <li key={index}
+                                    className='styled-li'
+                                    data-aos="fade-up"
+                                    data-aos-duration={`${1200 + (index * 100)}`}
+                                    data-aos-easing="ease-in-out"
+                                >
                                     {desc}
                                 </li>
                             ))}
