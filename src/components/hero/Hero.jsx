@@ -1,4 +1,4 @@
-import HeroImage from '../assets/hero-image.png';
+import HeroImage from '../../assets/hero-image.png';
 import {MdEmail} from "react-icons/md";
 import {TypeAnimation} from "react-type-animation";
 
