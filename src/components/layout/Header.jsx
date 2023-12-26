@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 export default function Header({activeSection}) {
 
-    console.log(activeSection);
-
     const menuItems = [
         {name: 'Home', 'link': '#'},
         {name: 'About Me', 'link': '#about'},

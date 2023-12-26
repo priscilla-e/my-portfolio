@@ -5,7 +5,7 @@ import {PROJECTS} from "../../data.js";
 
 export default function Projects() {
     return (
-        <section id='experience' data-aos="fade-up">
+        <section id='projects' data-aos="fade-up">
             <div className='container mx-auto my-24'>
                 <SectionHeader title='Projects'/>
 

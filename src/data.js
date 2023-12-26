@@ -74,28 +74,4 @@ export const PROJECTS = [
         techStack: ['Ruby on Rails', 'Bootstrap'],
         thumbnail: 'engagement-tracker-project.jpg'
     },
-    {
-        name: 'Portfolio Website',
-        description: 'A personal portfolio website showcasing a creative blend of modern design and functionality.',
-        webLink: 'https://priscillaemasoga.com',
-        githubLink: 'https://github.com/priscilla-e/my-portfolio',
-        techStack: ['React.js', 'HTML', 'TailwindCSS'],
-        thumbnail: 'portfolio-project.png'
-    },
-    {
-        name: 'AI Powered Tic-Tac-Toe Game',
-        description: 'A Tic-Tac-Toe game, enhanced with a Minimax algorithm and OpenAI\'s text generation model for challenging gameplay.',
-        webLink: '#',
-        githubLink: '#',
-        techStack: ['React.js', 'HTML', 'TailwindCSS'],
-        thumbnail: 'tic-tac-toe-project.png'
-    },
-    {
-        name: 'Sheffield University Engagement Tracker',
-        description: 'A Ruby on Rails application to streamline the management of student record change requests at the University of Sheffield',
-        webLink: '#',
-        githubLink: '#',
-        techStack: ['Ruby on Rails', 'Bootstrap'],
-        thumbnail: 'engagement-tracker-project.jpg'
-    }
 ]

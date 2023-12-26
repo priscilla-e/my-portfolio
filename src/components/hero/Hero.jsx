@@ -35,7 +35,7 @@ export default function Hero() {
                         A Software Engineer and 2nd-year computer science student
                         at the University of Sheffield.
                     </p>
-                    <a href="mailto:priscillaemasoga&#64;gmail&#46;com"
+                    <a href="mailto:priscillaemasoga[at]gmail[dot]com"
                        className='inline-block text-primary border border-primary px-4 py-2 rounded font-semibold shadow shadow-primary duration-150 !hover:scale-200 focus:outline-none'
                        // data-aos="fade-up"
                        // data-aos-duration="1600"
