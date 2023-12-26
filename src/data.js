@@ -63,7 +63,7 @@ export const PROJECTS = [
         description: 'A Tic-Tac-Toe game, enhanced with a Minimax algorithm and OpenAI\'s text generation model for challenging gameplay.',
         webLink: '#',
         githubLink: '#',
-        techStack: ['React.js', 'HTML', 'TailwindCSS'],
+        techStack: ['Flask', 'React.js', 'HTML', 'TailwindCSS'],
         thumbnail: 'tic-tac-toe-project.png'
     },
     {

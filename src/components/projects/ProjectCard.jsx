@@ -19,7 +19,7 @@ export default function ProjectCard({project}) {
             </div>
 
             {/*project name*/}
-            <p className='absolute left-0 bottom-0 w-full bg-primary flex items-center justify-center text-center text-sm text-gray-900 h-16 tracking-tight leading-6 p-4 font-bold rounded-lg md:text-base'>
+            <p className='absolute left-0 bottom-0 w-full bg-primary flex items-center justify-center text-center text-sm text-gray-900 h-16 tracking-tight leading-6 p-4 font-bold rounded-b-lg md:text-base'>
                 {project.name}
             </p>
 
