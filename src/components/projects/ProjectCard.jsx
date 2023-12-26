@@ -3,7 +3,7 @@ import {FaExternalLinkAlt, FaGithub} from "react-icons/fa";
 
 export default function ProjectCard({project}) {
     return (
-        <div className="relative w-full h-80 group shadow-lg  md:h-96">
+        <div className="relative w-full h-80 group shadow-lg md:h-96" data-aos='zoom-in' data-aos-duration="1200">
             {/*project image*/}
             <div className="absolute bottom-0 left-0 w-full h-full">
                 <img src={project.thumbnail} alt='test' className='w-full h-full rounded-lg'/>
@@ -26,8 +26,8 @@ export default function ProjectCard({project}) {
             {/*project description overlay*/}
             <div
                 className="absolute left-0 bottom-0 right-0 opacity-0 w-full h-full p-6 flex items-center justify-center bg-primary text-dark rounded-lg group-hover:animate-fill-up">
-                <div className='text-center'>
-                    <div className="text-sm">
+                <div>
+                    <div className="text-sm text-center">
                         {project.description}
                     </div>
                     <div className="mt-6 flex items-center justify-center space-x-4">
