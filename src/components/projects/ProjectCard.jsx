@@ -27,6 +27,9 @@ export default function ProjectCard({project}) {
             <div
                 className="absolute left-0 bottom-0 right-0 opacity-0 w-full h-full p-6 flex items-center justify-center bg-primary text-dark rounded-lg group-hover:animate-fill-up">
                 <div>
+                    <p className="text-center text-sm text-gray-900 h-16 tracking-tight leading-6 p-4 font-bold rounded-lg md:text-base">
+                        {project.name}
+                    </p>
                     <div className="text-sm text-center">
                         {project.description}
                     </div>
