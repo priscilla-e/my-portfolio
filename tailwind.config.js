@@ -12,7 +12,7 @@ export default {
       colors: {
         'primary': '#EFE070',
         'secondary': '#F6CA79',
-        'dark': '#242529',
+        'dark': '#121315',
         'light': '#F1F1F1',
         'darkLine': '#303237',
       },
