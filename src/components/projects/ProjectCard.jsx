@@ -3,7 +3,7 @@ import {FaExternalLinkAlt, FaGithub} from "react-icons/fa";
 
 export default function ProjectCard({project}) {
     return (
-        <div className="relative w-full h-80 group shadow-lg md:h-96" data-aos='zoom-in' data-aos-duration="1200">
+        <div className="relative w-full h-80 group shadow-lg md:h-96" data-aos='zoom-in' data-aos-duration="1500">
             {/*project image*/}
             <div className="absolute bottom-0 left-0 w-full h-full">
                 <img src={project.thumbnail} alt='test' className='w-full h-full rounded-lg'/>

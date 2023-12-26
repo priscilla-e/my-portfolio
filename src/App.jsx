@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero.jsx";
 import About from "./components/about/About.jsx";
 import Experience from "./components/experience/Experience.jsx";
 import Projects from "./components/projects/Projects.jsx";
+import Footer from "./components/layout/Footer.jsx";
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
             <Experience />
             <Projects />
         </main>
+        <Footer />
     </BrowserRouter>
   )
 }
