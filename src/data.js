@@ -67,11 +67,19 @@ export const PROJECTS = [
         thumbnail: 'tic-tac-toe-project.png'
     },
     {
-        name: 'Sheffield University Engagement Tracker',
+        name: 'Sheffield University COS Portal',
         description: 'A Ruby on Rails application to streamline the management of student record change requests at the University of Sheffield',
         webLink: '#',
         githubLink: '#',
         techStack: ['Ruby on Rails', 'Bootstrap'],
         thumbnail: 'engagement-tracker-project.jpg'
+    },
+    {
+        name: 'Enigma Simulator',
+        description: 'An Enigma machine simulator built using Haskell, accurately replicating the encryption mechanics of the historic cipher device.',
+        webLink: null,
+        githubLink: 'https://github.com/priscilla-e/enigma-simulator',
+        techStack: ['Haskell'],
+        thumbnail: 'enigma-project.jpg'
     },
 ]
