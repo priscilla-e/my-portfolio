@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 export default function SectionHeader({title}) {
     return (
         <div className='flex mb-14'>
@@ -6,3 +7,8 @@ export default function SectionHeader({title}) {
         </div>
     )
 }
+
+SectionHeader.propTypes = {
+    title: PropTypes.string.isRequired
+}
+

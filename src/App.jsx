@@ -1,4 +1,4 @@
-import {BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import Header from './components/layout/Header.jsx'
 import Hero from "./components/hero/Hero.jsx";
 import About from "./components/about/About.jsx";
@@ -8,16 +8,16 @@ import Footer from "./components/layout/Footer.jsx";
 
 export default function App() {
 
-  return (
-    <BrowserRouter>
-        <Header />
-        <main>
-            <Hero />
-            <About />
-            <Experience />
-            <Projects />
-        </main>
-        <Footer />
-    </BrowserRouter>
-  )
+    return (
+        <BrowserRouter>
+            <Header/>
+            <main>
+                <Hero/>
+                <About/>
+                <Experience/>
+                <Projects/>
+            </main>
+            <Footer/>
+        </BrowserRouter>
+    )
 }
