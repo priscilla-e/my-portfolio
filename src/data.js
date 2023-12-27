@@ -61,16 +61,16 @@ export const PROJECTS = [
     {
         name: 'AI Powered Tic-Tac-Toe Game',
         description: 'A Tic-Tac-Toe game, enhanced with a Minimax algorithm and OpenAI\'s text generation model for challenging gameplay.',
-        webLink: '#',
-        githubLink: '#',
+        webLink: null,
+        githubLink: null,
         techStack: ['Flask', 'React.js', 'HTML', 'TailwindCSS'],
         thumbnail: 'tic-tac-toe-project.png'
     },
     {
         name: 'Sheffield University COS Portal',
         description: 'A Ruby on Rails application to streamline the management of student record change requests at the University of Sheffield',
-        webLink: '#',
-        githubLink: '#',
+        webLink: null,
+        githubLink: null,
         techStack: ['Ruby on Rails', 'Bootstrap'],
         thumbnail: 'engagement-tracker-project.jpg'
     },
