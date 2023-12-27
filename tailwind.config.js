@@ -21,7 +21,8 @@ export default {
         mono: ['Source Code Pro', 'monospace'],
       },
       animation: {
-        'fill-up': 'fillUp 0.3s ease-in forwards'
+        'fill-up': 'fillUp 0.3s ease-in forwards',
+        'empty-down': 'emptyDown 0.3s ease-out forwards'
       },
     },
   },
