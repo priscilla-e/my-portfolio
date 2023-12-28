@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className='flex flex-col items-center justify-center mt-24 mb-8 w-full text-sm space-y-3 border-t border-t-darkLine md:mt-32'>
+        <footer className='flex flex-col items-center justify-center mt-24 mb-20 w-full text-sm space-y-3 border-t border-t-darkLine md:mt-32 md:mb-8'>
             <p className='mt-5'>Designed & built by
                 <a
                    href='https://github.com/priscilla-e'
