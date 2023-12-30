@@ -22,6 +22,3 @@ https://github.com/priscilla-e/my-portfolio/assets/56302477/15d3ac60-7273-42c3-b
     npm install
     npm run dev
 ```
-
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FbVplsuRPoYPhEIfKp68vGN%2FUntitled%3Ftype%3Ddesign%26node-id%3D317%253A53%26mode%3Ddev" allowfullscreen></iframe>
