@@ -1,4 +1,19 @@
 # My Portfolio Project
 
-ReadME file for my portfolio project
-To be updated...
+This is the first version of my porfolio website project..
+
+
+**DEMO ==> https://priscillaemasoga.com**
+
+# Preview
+
+
+# Technologies
+* React.js + Vite
+* TailwindCSS
+* HTML (JSX)
+* AOS - For quick and easy scroll animations
+
+
+
+
