@@ -59,11 +59,11 @@ export const PROJECTS = [
         thumbnail: 'portfolio-project.png'
     },
     {
-        name: 'AI Powered Tic-Tac-Toe Game',
+        name: 'Tic-tac-AI Game',
         description: 'A Tic-Tac-Toe game, enhanced with a Minimax algorithm and OpenAI\'s text generation model for challenging gameplay.',
-        webLink: null,
-        githubLink: null,
-        techStack: ['Flask', 'React.js', 'HTML', 'TailwindCSS'],
+        webLink: 'https://tic-tac-ai-nu.vercel.app',
+        githubLink: 'https://github.com/priscilla-e/tic-tac-AI',
+        techStack: ['FastAPI', 'React.js', 'OpenAI', 'HTML', 'TailwindCSS'],
         thumbnail: 'tic-tac-toe-project.png'
     },
     {
