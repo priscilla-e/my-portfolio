@@ -10,7 +10,7 @@ This is the first version of my porfolio website project..
 https://github.com/priscilla-e/my-portfolio/assets/56302477/15d3ac60-7273-42c3-b09a-e64edfb3d3bd
 
 # Technologies
-* React.js + Vite
+* React.js + Vite (JavaScript)
 * TailwindCSS
 * HTML (JSX)
 * AOS - For quick and easy scroll animations
