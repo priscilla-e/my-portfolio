@@ -51,6 +51,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+        name: 'QuickDict',
+        description: 'An online english dictionary powered by Meriam-Webster\'s Collegiate dictionary API.',
+        webLink: 'https://priscillaemasoga.com',
+        githubLink: 'https://github.com/priscilla-e/quickdict',
+        techStack: ['React.js', 'TypeScript', 'Firebase', 'TailwindCSS', 'IndexedDB'],
+        thumbnail: 'quickdict-project.png'
+    },
+    {
         name: 'Portfolio Website',
         description: 'A personal portfolio website showcasing a creative blend of modern design and functionality.',
         webLink: 'https://priscillaemasoga.com',
